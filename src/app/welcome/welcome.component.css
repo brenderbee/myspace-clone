@@ -4,8 +4,11 @@
   padding: 0;
 }
 
+
 .main {
   margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
   display: flex;
   height: auto;
   font-size: 12px;
@@ -148,10 +151,13 @@
   text-align: center;
 }
 
+/* Blog section */
 .blog p {
   line-height: 32px;
 }
 
+
+/* Blurbs Section */
 .blurbs h3 {
   display: block;
   padding: 2px;
@@ -165,9 +171,77 @@
 .blurbs h3: {
   margin-top: 30px;
 }
+
 .blurbs p {
   margin-bottom: 10px;
 }
+
 .blurbs p:nth-child(7) {
   margin-bottom: 20px;
+}
+
+/* Friends Section */
+.friends {
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.friends h3 {
+  display: block;
+  padding: 2px;
+  background-color: rgb(255, 204, 153);
+  color: #ff6600;
+}
+
+.friends-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.friends-thumbnail {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+  width: 20%
+}
+
+.friends p strong {
+  color: #cc0000;
+  float: right;
+}
+
+/* comments  */
+.comments {
+  clear: both;
+}
+
+.comments h3 {
+  background-color: rgb(255, 204, 153);
+  color: #ff6600;
+}
+
+.comments-section {
+  display: flex;
+  width: 100%;
+  padding: 3px 3px 0 3px;
+}
+
+.comments-section-user {
+  width: 30%;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-right: 3px;
+  background-color: rgb(255, 153, 51);
+}
+
+.comments-section-user p {
+  padding-top: 10px;
+  margin-bottom: 12px;
+}
+
+.comments-content {
+  width: 70%;
+  background-color: rgb(255, 204, 153);
+  padding: 5px;
 }

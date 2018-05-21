@@ -3,7 +3,12 @@
   font-family: 'Arial', sans-serif;
 }
 
+body {
+  background-color: rgb(229, 229, 229);
+}
+
 .container {
+  background-color: white;
   margin: 0 auto;
   width: 800px;
 }
