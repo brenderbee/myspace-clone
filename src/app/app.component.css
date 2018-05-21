@@ -13,6 +13,7 @@ nav {
   display: flex;
   height: 100px;
   background-color: rgb(0, 51, 153);
+  justify-content: space-between;
 }
 
 .homepage-nav {
@@ -31,8 +32,25 @@ nav {
   line-height: 16px;
 }
 
+.search-nav {
+  display: flex;
+  padding-top: 10px;
+}
+
 .sign-up-nav {
   display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.sign-up-nav p {
+  padding: 0 5px;
+  height: 16px;
+  border-right: 1px solid white;
+}
+
+.sign-up-nav p:last-child {
+  border-right: none;
 }
 
 .bottom-nav {
@@ -44,10 +62,16 @@ nav {
 .bottom-nav ul {
   display: flex;
   list-style-type: none;
+  justify-content: center;
+  padding: 0;
 }
 
 .bottom-nav li {
   border-right: 1px solid black;
   line-height: 16px;
   padding: 0 5px;
+}
+
+.bottom-nav li:last-child {
+  border-right: none;
 }
