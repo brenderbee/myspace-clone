@@ -1,0 +1,30 @@
+* {
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  height: 500px;
+  font-size: 12px;
+}
+
+.column-left {
+  width: 40%;
+}
+
+.profile {
+  height: 300px;
+}
+
+.profile-summary {
+  display: flex;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 16px;
+}

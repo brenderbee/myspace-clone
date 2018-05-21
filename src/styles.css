@@ -1,7 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: 'Arial', sans-serif;
+}
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 800px;
 }
- 
