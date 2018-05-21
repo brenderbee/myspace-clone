@@ -1,12 +1,13 @@
 * {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 0;
   padding: 0;
 }
 
 .main {
+  margin-top: 10px;
   display: flex;
-  height: 500px;
+  height: auto;
   font-size: 12px;
 }
 
@@ -14,12 +15,16 @@
   width: 40%;
 }
 
+
+/* Profile Section */
 .profile {
-  height: 300px;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .profile-summary {
   display: flex;
+  margin-bottom: 16px;
 }
 
 .profile-info {
@@ -27,4 +32,142 @@
   flex-direction: column;
   justify-content: space-around;
   padding-left: 16px;
+}
+
+.profile-contact {
+  height: auto;
+  border: 2px solid rgb(102, 153, 204);
+  margin-bottom: 20px;
+}
+
+.profile-contact h3{
+  color: white;
+  display: block;
+  background-color:rgb(102, 153, 204);
+  padding: 2px;
+}
+
+.profile-url {
+  padding-left: 5px;
+  border: 1px solid rgb(102, 153, 204);
+  margin-bottom: 20px;
+}
+
+.profile-url p:first-child{
+  padding-top: 2px;
+}
+
+
+/* Interests Section */
+.interests {
+  border: 1px solid rgb(102, 153, 204);
+  margin-bottom: 20px;
+}
+
+.interests h3 {
+  display: block;
+  background-color:  rgb(102, 153, 204);
+  color: white;
+  padding: 3px;
+}
+
+.interests-section {
+  display: flex;
+  padding: 3px 3px 0 3px;
+}
+
+.interests-section:last-child {
+  padding-bottom: 3px;
+}
+
+.interests-topic {
+  background-color: rgb(177, 208, 240);
+  color: #336699;
+  padding: 3px 0 3px 3px;
+  margin-right: 3px;
+  width: 30%;
+}
+
+.interests-content {
+  background-color: rgb(213, 232, 251);
+  padding: 3px;
+  font-size: 11px;
+  width: 70%;
+}
+
+/* Schools Section */
+.schools {
+  border: 1px solid rgb(102, 153, 204);
+  font-size: 11px;
+}
+
+.schools h3 {
+  display: block;
+  background-color:  rgb(102, 153, 204);
+  color: white;
+  padding: 3px;
+}
+
+.schools-section {
+  display: flex;
+  padding: 3px 3px 0 3px;
+}
+
+.schools-section:last-child {
+  padding-bottom: 3px;
+}
+
+.schools-attended {
+  background-color: rgb(177, 208, 240);
+  color: black;
+  padding: 3px 0 20px 3px;
+  margin-right: 3px;
+  width: 80%;
+}
+
+.schools-years {
+  background-color: rgb(213, 232, 251);
+  padding: 3px;
+  font-size: 11px;
+  width: 20%;
+}
+
+/* Network */
+.column-right {
+  margin-left: 30px;
+}
+
+.network {
+  height: 70px;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.network h2 {
+  line-height: 70px;
+  text-align: center;
+}
+
+.blog p {
+  line-height: 32px;
+}
+
+.blurbs h3 {
+  display: block;
+  padding: 2px;
+  color: #ff6600;
+}
+
+.blurbs h3:first-child {
+  background-color: rgb(255, 204, 153);
+}
+
+.blurbs h3: {
+  margin-top: 30px;
+}
+.blurbs p {
+  margin-bottom: 10px;
+}
+.blurbs p:nth-child(7) {
+  margin-bottom: 20px;
 }
